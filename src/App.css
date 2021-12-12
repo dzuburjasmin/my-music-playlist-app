@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: rgb(153, 8, 129);
+  position: fixed !important;
+  z-index: 1;
+  top: 0;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headingmainpage {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand {
+  font-family: cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.subhead {
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
-
-.App-link {
-  color: #61dafb;
+/* .notaslika {
+  height: 400px !important;
+} */
+.favouritebutton {
+  background-color: rgb(1, 113, 133) !important;
+  color: white !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.songlist {
+  background-color: rgb(235, 229, 229);
+}
+section {
+  min-height: 80vh;
 }
